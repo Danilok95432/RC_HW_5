@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #F4F3EE;
+    font-family: Jurere;
+}
+
+timer-view{
+    color: #463F3A;
+    font-size: 96px;
+}
+
+.control-panel{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.control-panel button{
+    width: 150px;
+    height: 60px;
+    border: none;
+    background: #463F3A;
+    border-radius: 12px;
+    color: white;
+    font-size: 32px;
+    transition: all 0.5s ease-in-out;
+    font-family: Jurere;
+    padding: 10px;
+}
+
+.control-panel button:hover{
+    color: #C5E6A6;
+    scale: 1.1;
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+

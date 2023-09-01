@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Leotaro;
+    src: url(fonts/Leotaro-Regular.woff);
+}
+
+@font-face {
+    font-family: Kica;
+    src: url(fonts/ifkica-bold.woff);
+}
+
+@font-face {
+    font-family: KicaReg;
+    src: url(fonts/ifkica-regular.woff);
+}
+
+@font-face {
+    font-family: Jurere;
+    src: url(fonts/SC\ Jurerê.otf);
+}
