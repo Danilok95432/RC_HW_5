@@ -139,7 +139,6 @@ class timerView extends HTMLElement{
             mutations.forEach(function(mutation) {
                 countChanges++
                 if (mutation.type === "attributes" && countChanges >= 3) {
-                    console.log('Attributes was changed')
                     obj.isChanged = true
                     obj.pauseTimer()
                     obj.resetTimer()
