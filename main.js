@@ -17,6 +17,7 @@ startBtn.addEventListener('click', () => {
 pauseBtn.addEventListener('click', () => {
     timer.dispatchEvent(pauseEvent)
     startBtn.style.pointerEvents = 'all'
+    startBtn.style.opacity = '1'
 })
 
 resetBtn.addEventListener('click', () => {

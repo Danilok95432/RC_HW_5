@@ -1,3 +1,21 @@
+@media screen and (max-width: 426px) {
+    .timer{
+        font-size: 64px;
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }
+
+    .timer #timer{
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }
+
+    #controls{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +38,7 @@ body{
 timer-view{
     color: #463F3A;
     font-size: 96px;
+    text-align: center;
 }
 
 .control-panel{
